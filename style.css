@@ -1,11 +1,12 @@
 *{
     margin: 1px;
 
-
+/* I have made height 100% to help with keeping the footer at the bottom. I dont know if this the best practice, but I have seemed to make it work*/
 }
 html {
 height: 100%;
 }
+/* Here I have made the background an image, and set it to fixed, with a min-max: height of 100% to stop it from duplicating. It seems to have the job.*/
 body {
   background-image: url(/images/chair.jpg);
   background-attachment: fixed;
