@@ -1,5 +1,5 @@
 *{
-    margin: 1px;
+    margin: 0;
 
 /* I have made height 100% to help with keeping the footer at the bottom. I dont know if this the best practice, but I have seemed to make it work*/
 }
@@ -20,7 +20,7 @@ body {
 }
 
 .header{
-    background-color: rgba(46, 52, 88, 0.295);
+    background-color: rgba(5, 5, 5, 0.61);
     display: flex;
     align-items: flex-start;
     justify-content:flex-end;
@@ -30,7 +30,8 @@ body {
     font-family: 'Armata', sans-serif;
     font-size: 20px;
     font-weight: bolder;
-    color: rgba(74, 207, 140, 0.918);
+    color: rgba(74, 207, 140, 0.589);
+    margin: 1px;
     
 }
 
@@ -45,39 +46,87 @@ body {
     border: 1px;
     border-radius: 15px;
     padding: 10px;
-    color: antiquewhite;
+    color: rgba(250, 235, 215, 0.685);
+    margin: 1px;
     
 
 }
 
 .section-2 {
-    background-color: rgba(5, 5, 5, 0.253);
+    background-color: rgba(5, 5, 5, 0.61);
      padding: 10px;
      border: 1px;
     border-radius: 15px;
     font-size: 42px;
-    color: rgba(74, 207, 140, 0.918);
+    color: rgba(74, 207, 140, 0.596);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-}
-
-.section-3{
-    background-color: rgba(5, 5, 5, 0.253);
-    padding: 10px;
-    border: 1px;
-    border-radius: 15px;
+    flex-wrap: wrap;
+    margin: 1px;
+    
     
 }
 
+.section-3{
+    background-color: rgba(5, 5, 5, 0.61);
+    padding: 10px;
+    border: 1px;
+    border-radius: 15px;
+    color: antiquewhite;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+
+.name{
+    color: rgba(74, 207, 140, 0.918);
+    font-size: 18px;
+    font-weight: bolder;
+   
+}
+
 .section-4{
-    background-color: rgba(5, 5, 5, 0.253);
+    background-color:  rgba(5, 5, 5, 0.61);
    padding: 10px;
     border: 1px;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: 1px;
    
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(74, 207, 140, 0.596);
+    width: 700px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: antiquewhite;
+    margin: 5px;
+
+}
+
+
+
+
 .content{
     display: flex;
     flex-direction: column;
@@ -85,31 +134,38 @@ body {
 
    
 }
+button{
+    background-color: rgba(74, 207, 140, 0.596);
+    border-radius: 10px;
+    height: 50px;
+}
 
 .footer {
     
     background-color: rgba(83, 180, 123, 0.541);
-    border-radius: 15px;
     margin-top: 100%;
     text-align: center;
   
     
 }
 
-ul{
+ul {
     display: flex;
     flex: 1;
     font-size: 20px;
     list-style: none;
-    gap: 20px;
+    gap: 30px;
     justify-content: flex-end;
+    flex-wrap: wrap;
     
 
 }
 
 a{
-    color: aqua;
-    font-size: 10px;
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: 'Armata', sans-serif;
+    text-decoration: none;
 }
 
 .heading1{
@@ -121,12 +177,16 @@ a{
     flex-basis: 1;
 }
 
-button{
+.button{
     background-color: rgba(76, 202, 133, 0.644);
     color: aliceblue;
     border-radius: 10px;
     width: 200px;
     height: 40px;
+    font-family: 'Armata', sans-serif;
+    align-items: center;
+    justify-content: center;
+    
     
     
 }
